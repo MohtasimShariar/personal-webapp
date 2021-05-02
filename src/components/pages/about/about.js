@@ -51,7 +51,14 @@ const About = () => {
                   <div>
                     <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
-                        My Resume
+                        My Resume 
+                      </Button>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://drive.google.com/uc?export=download&id=1EBh1B7ZJGL86u-FzyhGUxVTEvQ3Bu-2i" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="outline-success">
+                        Download Resume Here
                       </Button>
                     </a>
                   </div>

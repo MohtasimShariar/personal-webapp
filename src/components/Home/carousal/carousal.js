@@ -7,7 +7,11 @@ import "./carousal.css";
 
 const Carousal = () => {
   return (
-    <div id="home">
+    <div id="home" className="container mt-5">
+        <h1> Project Show </h1>
+        <hr />
+        <br/>
+
       <Carousel controls={false} indicators interval={2500} pause={false}>
         
         <Carousel.Item>

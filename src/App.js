@@ -5,6 +5,8 @@ import "./App.css";
 import About from "./components/pages/about/about";
 import Blogs from "./components/pages/Blogs/Blogs";
 import ContactUs from "./components/pages/contact-form/contact-form";
+import Skill from "./components/pages/skills/skill";
+import Projects from "./components/pages/LatestProjects/LatestProjects";
 
 
 function App ()  {
@@ -25,12 +27,13 @@ function App ()  {
         <Route exact path="/contact-form">
         <ContactUs></ContactUs>
         </Route>
-        {/* <Route exact path="">
-         
-        </Route> */}
-        {/* <Route exact path="">
-         
-        </Route> */}
+        <Route exact path="/projects">
+          <Projects></Projects>
+       
+        </Route>
+        <Route exact path="/skill">
+         <Skill></Skill>
+        </Route>
       </Switch>
     </Router>
     

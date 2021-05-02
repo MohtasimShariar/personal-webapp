@@ -25,7 +25,7 @@ const navbar = () => {
             <Nav className="mr-auto light ">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/skills">Skills</Nav.Link>
+              <Nav.Link href="/skill">Skills</Nav.Link>
               <Nav.Link href="/blogs">Blogs</Nav.Link>
               <Nav.Link href="/projects">Projects</Nav.Link>
               <Nav.Link href="/contact-form">Contact</Nav.Link>
