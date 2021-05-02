@@ -42,22 +42,22 @@ const About = () => {
                 stable employment opportunity. I am also eager to learn new
                 skills and technological advancements.
                 <br />
-                <strong>&nbsp;Educational Qualification</strong>
+                <strong>Educational Qualification</strong>
 
-                <strong>&nbsp;Bachelor of Science (BSC)</strong>
+                <strong>Bachelor of Science (BSC)</strong>
                  Institute: Bangladesh Army University
                 of Engineering and Technology (BAUET) Department: Computer
                 Science and Engineering (CSE) Result: GPA- 3.00(up to 7th
                 semester) Passing Year: 2021
-                <strong>&nbsp;Higher Secondary Certificate (HSC)</strong>
+                <strong>Higher Secondary Certificate (HSC)</strong>
                  Institute: Ishwardi
                 Government Collage Result: GPA- 4.50 Group: Science Passing
                 Year: 2016
-                <strong>&nbsp;Secondary School Certificate (SSC)</strong>
+                <strong>Secondary School Certificate (SSC)</strong>
                  Institute: Sara Marwari Model
                 School and College Result: GPA- 5.00 Group: Science Passing
                 Year: 2014
-                <strong>&nbsp;Declaration</strong>
+                <strong>Declaration</strong>
                 I the undersigned, declare that to the best of my
                 knowledge and belief, this resume correctly describes
                 qualifications, my experience and myself. I agree and accept
