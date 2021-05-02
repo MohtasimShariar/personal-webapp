@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card ,Button } from 'react-bootstrap';
 import Navbar from "../../Shared/navbar/navbar";
+import FooterPanel from "../../Shared/footer/footer"
 import Slide1 from "../../../assets/img/carousal/slide1.webp";
 import Slide2 from "../../../assets/img/carousal/slide2.webp";
 import Slide3 from "../../../assets/img/carousal/slide3.webp";
@@ -11,8 +12,15 @@ const Projects = () => {
             <Navbar></Navbar>   <br />
             <br />
             <br />
-            <div className="row bg-success p-5 m-5">
+            <br />
+            <br />
+            <div className="py-2 text-center footer-style">All Projects </div>
+            <hr/>
+            <br/>
+                <div className="row bg-light p-5 m-5">
+                     
                     <div className="col-md-4">
+                    
                         <Card>
                             <Card.Img variant="top" src={Slide1} style={{ height: '300px', width: 'auto' }} />
                             <Card.Body>
@@ -23,7 +31,7 @@ const Projects = () => {
                         </Card>
                     </div>
                     <div className="col-md-4">
-                     <div className="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum.
+                     <div className=""><span>Name: Solar studio</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum.
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum.
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum.
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum.
@@ -45,6 +53,7 @@ const Projects = () => {
                         </Card>
                     </div>
                 </div>
+
             <br />
             <div className="container mt-5">
                 <div className="row">
@@ -82,6 +91,7 @@ const Projects = () => {
            
               
             </div>
+            <FooterPanel></FooterPanel>
         </div>
     );
 };

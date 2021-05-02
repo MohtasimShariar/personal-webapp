@@ -1,9 +1,19 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
+import Navbar from '../../Shared/navbar/navbar';
+import FooterPanel from "../../Shared/footer/footer"
 
 const Skill = () => {
     return (
         <div className='mt-5 p-5'>
+            <Navbar></Navbar>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+
             <h3>Skills</h3> <hr/> <br/>
             
             <div className='container'>
@@ -18,6 +28,7 @@ const Skill = () => {
                heroku <ProgressBar variant="danger" now={80} />
 
             </div>
+            <FooterPanel></FooterPanel>
         </div>
     );
 };
