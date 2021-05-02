@@ -5,8 +5,8 @@ import "./App.css";
 import About from "./components/pages/about/about";
 import Blogs from "./components/pages/Blogs/Blogs";
 import ContactUs from "./components/pages/contact-form/contact-form";
-import Skill from "./components/pages/skills/skill";
 import Projects from "./components/pages/LatestProjects/LatestProjects";
+import Skills from "./components/pages/skills/skills";
 
 
 function App ()  {
@@ -29,19 +29,12 @@ function App ()  {
         </Route>
         <Route exact path="/projects">
           <Projects></Projects>
-       
         </Route>
-        <Route exact path="/skill">
-         <Skill></Skill>
+        <Route exact path="/skills">
+         <Skills></Skills>
         </Route>
       </Switch>
     </Router>
-    
-    //    <Navbar />
-    //     <TitleMessage />
-    //     <Home />
-    //     <Carousal />   
-    //     <FooterPanel />
     
   );
 };

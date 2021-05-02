@@ -16,8 +16,9 @@ import Row from "react-bootstrap/Row";
 const FooterPanel = () => {
   return (
     <div>
+      <h1 className="pt-3 text-center font-details-b pb-3">Connect Me </h1>
       <div id="contact">
-        <h1 className="pt-3 text-center font-details-b pb-3">Connect Me </h1>
+        
         <Jumbotron className="contact-jumbotron">
           <Row>
             <Col className="d-flex justify-content-center flex-wrap">
@@ -62,16 +63,16 @@ const FooterPanel = () => {
                   rel="noopener noreferrer"
                 >
                   <Button
-                    id="youtube-btn"
+                    id="skype-btn"
                     variant="outline-info"
                     title="Lets code together!"
                   >
-                    <i class="fab fa-youtube"></i> Skype
+                    <i class="fab fa-skype"></i> Skype
                   </Button>
                 </a>
               </div>
               <div className="m-2">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-info" title="Tweets are welcomed!">
                     <i className="fab fa-twitter"></i> Twitter
                   </Button>

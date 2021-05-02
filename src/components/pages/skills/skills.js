@@ -4,15 +4,22 @@ import CardDeck from "react-bootstrap/CardDeck";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
 // skills
 import { skills } from "./skills-data";
-
-import "./skills.styles.css";
+import "./skills.css";
+import Navbar from "../../Shared/navbar/navbar";
+import FooterPanel from "../../Shared/footer/footer";
 
 const Skills = () => {
   return (
-    <div className="pt-3 pb-3" id="skills">
+    <>
+    <Navbar></Navbar>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div className=" pt-3 pb-3 container" id="skills">
+      <div className="py-2 text-center footer-style"> My Skills </div>
       <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
       <CardDeck>
         <Row className="d-flex justify-content-around">
@@ -107,25 +114,13 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            {/* Version Control */}
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Version Control</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  <span className="p-2">
-                    <a className="text-dark text-decoration-none" href={skills.versionControl[0].link} target="_blank" rel="noopener noreferrer">
-                      <Image src={skills.versionControl[0].imgSrc} alt={skills.versionControl[0].imgAltText} rounded className="image-style m-1"></Image> {skills.versionControl[0].skillName}
-                    </a>
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
           </Col>
         </Row>
       </CardDeck>
     </div>
+    
+    {/* <FooterPanel></FooterPanel> */}
+    </>
   );
 };
 

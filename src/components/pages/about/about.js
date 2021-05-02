@@ -13,32 +13,54 @@ const About = () => {
   return (
     <div id="about">
       <Navbar></Navbar>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="about">
         <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
-            
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                <Image
+                  className="profile justify-content-end"
+                  alt="profile"
+                  src={Profile}
+                  thumbnail
+                  fluid
+                />
               </Row>
             </Col>
 
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Md.Mohtasim Shariar</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
                 <br />
-                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
+                To obtain a challenging position that allows me to utilize my
+                current skills to assist in advancing a business that offers a
+                stable employment opportunity. I am also eager to learn new
+                skills and technological advancements.
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                <strong>&nbsp;Educational Qualification</strong>
+                Bachelor of Science (BSC) Institute: Bangladesh Army University
+                of Engineering and Technology (BAUET) Department: Computer
+                Science and Engineering (CSE) Result: GPA- 3.00(up to 7th
+                semester) Passing Year: 2021
+                <br /> Higher Secondary Certificate (HSC) Institute: Ishwardi
+                Government Collage Result: GPA- 4.50 Group: Science Passing
+                Year: 2016
                 <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                Secondary School Certificate (SSC) Institute: Sara Marwari Model
+                School and College Result: GPA- 5.00 Group: Science Passing
+                Year: 2014
+                <br />
+                <strong>&nbsp;Declaration</strong>
+                I the undersigned, declare that to the best of my
+                knowledge and belief, this resume correctly describes
+                qualifications, my experience and myself. I agree and accept
+                that I will be liable immediate termination of service if I am
+                found to have false information.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -49,28 +71,44 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://drive.google.com/file/d/1EBh1B7ZJGL86u-FzyhGUxVTEvQ3Bu-2i/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button className="m-2" variant="outline-success">
-                        My Resume 
+                        My Resume
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/uc?export=download&id=1EBh1B7ZJGL86u-FzyhGUxVTEvQ3Bu-2i" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://drive.google.com/uc?export=download&id=1EBh1B7ZJGL86u-FzyhGUxVTEvQ3Bu-2i"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button className="m-2" variant="outline-success">
                         Download Resume Here
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://github.com/MohtasimShariar?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/MohtasimShariar?tab=repositories"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/md-mohtasim-shariar-026478209/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.linkedin.com/in/md-mohtasim-shariar-026478209/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
