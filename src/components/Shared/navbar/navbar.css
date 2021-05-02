@@ -1,0 +1,23 @@
+.logo {
+  height:60px;
+  width: 60px;
+}
+
+.nav-theme {
+  background-color: #23263a;
+  font-size: 20px;
+}
+
+.animate-navbar {
+  box-shadow: 1px 1px 1px #23263a;
+  animation: moveDown 0.5s ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
