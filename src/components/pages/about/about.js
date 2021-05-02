@@ -51,6 +51,7 @@ const About = () => {
                 Government Collage Result: GPA- 4.50 Group: Science Passing
                 Year: 2016
                 <br />
+                <br />
                 Secondary School Certificate (SSC) Institute: Sara Marwari Model
                 School and College Result: GPA- 5.00 Group: Science Passing
                 Year: 2014
