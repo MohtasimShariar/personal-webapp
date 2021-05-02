@@ -35,7 +35,7 @@ const About = () => {
 
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Md.Mohtasim Shariar</strong>
+                <strong>&nbsp;Md.Mohtasim Shariar</strong>
                 <br />
                 To obtain a challenging position that allows me to utilize my
                 current skills to assist in advancing a business that offers a
@@ -43,19 +43,20 @@ const About = () => {
                 skills and technological advancements.
                 <br />
                 <strong>&nbsp;Educational Qualification</strong>
-                Bachelor of Science (BSC) Institute: Bangladesh Army University
+
+                <strong>&nbsp;Bachelor of Science (BSC)</strong>
+                 Institute: Bangladesh Army University
                 of Engineering and Technology (BAUET) Department: Computer
                 Science and Engineering (CSE) Result: GPA- 3.00(up to 7th
                 semester) Passing Year: 2021
-                <br /> Higher Secondary Certificate (HSC) Institute: Ishwardi
+                <strong>&nbsp;Higher Secondary Certificate (HSC)</strong>
+                 Institute: Ishwardi
                 Government Collage Result: GPA- 4.50 Group: Science Passing
                 Year: 2016
-                <br />
-                <br />
-                Secondary School Certificate (SSC) Institute: Sara Marwari Model
+                <strong>&nbsp;Secondary School Certificate (SSC)</strong>
+                 Institute: Sara Marwari Model
                 School and College Result: GPA- 5.00 Group: Science Passing
                 Year: 2014
-                <br />
                 <strong>&nbsp;Declaration</strong>
                 I the undersigned, declare that to the best of my
                 knowledge and belief, this resume correctly describes
