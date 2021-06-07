@@ -16,6 +16,8 @@ import ticket from "../../../assets/img/carousal/ticket.png";
 import ticket1 from "../../../assets/img/carousal/ticket1.png";
 import Books from "../../../assets/img/carousal/Books.png";
 import Books1 from "../../../assets/img/carousal/Books1.png";
+import friendbook from "../../../assets/img/carousal/friendbook.jpg";
+import friendbook1 from "../../../assets/img/carousal/friendbook1.jpg";
 
 
 
@@ -30,6 +32,198 @@ const Projects = () => {
       <br />
       <div className="py-2 text-center footer-style">All Projects </div>
       <hr />
+      <br />
+
+     
+
+      <div className="row bg-light p-2 m-2">
+        <div className="col-md-5">
+          <Card>
+            <Card.Img
+              variant="top"
+              src={solarstudio}
+              style={{ height: "450px", width: "auto" }}
+            />
+            <Card.Body>
+              <Card.Text>
+                <span>Home page </span>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="col-md-2">
+          <div className="">
+            <span>Name: Solar Studio </span>
+            <br />
+            A online service providing site.
+            <br />
+            <span>Features: </span>
+            I’ve created a simple full-stack project. It has two part One is
+            Client part, and Second part Clients can give their feedback. They
+            orders some service and payment in online platform.
+            <br />
+            <span> Frontend: </span> HTML5, CSS3, ES6, React, Bootstrap,
+            React-Spring.
+            <br />
+            <span> Backend: </span> MongoDB, ReST API, NodeJS, Firebase, Git,
+            Heroku.
+            <br />
+          </div>
+          <div className="">
+            <a
+              href="https://github.com/MohtasimShariar/Solar-studio-client"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Button variant="primary">Git code</Button>
+            </a>
+            <a
+              href="https://solar-studio-d83bc.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Button variant="primary">Live site</Button>
+            </a>
+          </div>
+        </div>
+        <div className="col-md-5">
+          <Card>
+            <Card.Img
+              variant="top"
+              src={solarstudio1}
+              style={{ height: "450px", width: "auto" }}
+            />
+            <Card.Body>
+              <Card.Text>
+                <span>Project page </span>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+      </div>
+
+      <br />
+      
+      <div className="row bg-light p-2 m-2">
+        <div className="col-md-5">
+          <Card>
+            <Card.Img
+              variant="top"
+              src={friendbook}
+              style={{ height: "600px", width: "auto" }}
+            />
+            <Card.Body>
+              <Card.Text>
+                <span>App look like </span>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="col-md-2">
+          <div className="">
+            <span>Name: Friendbook </span>
+            <br />
+It's a react native mobile app.social media App with React Native, expo, Use API for randomuser.me and api use for fake male image        
+             <br />
+          </div>
+          <div className="">
+            <a
+              href="https://github.com/YeasinHowladerEmon/Friendbook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Button variant="primary">Git code</Button>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Button variant="primary">Live site</Button>
+            </a>
+          </div>
+        </div>
+        <div className="col-md-5">
+          <Card>
+            <Card.Img
+              variant="top"
+              src={friendbook1}
+              style={{ height: "600px", width: "auto" }}
+            />
+            <Card.Body>
+              <Card.Text>
+                <span>App look like </span>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+      </div>
+
+      <br />
+
+
+
+      <div className="row bg-light p-2 m-2">
+        <div className="col-md-5">
+          <Card>
+            <Card.Img
+              variant="top"
+              src={personal}
+              style={{ height: "300px", width: "auto" }}
+            />
+            <Card.Body>
+              <Card.Text>
+                <span>Home page </span>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="col-md-2">
+          <div className="">
+            <span>Name: Personal Web-App </span>
+            <br />
+            This website using
+            react-js,react-bootstrap,React-Route,Font-Awesome. <br />
+          </div>
+          <div className="">
+            <a
+              href="https://github.com/MohtasimShariar/personal-webapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Button variant="primary">Git code</Button>
+            </a>
+            <a
+              href="https://mohtasimshariar.github.io/Solar-Song-App/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Button variant="primary">Live site</Button>
+            </a>
+          </div>
+        </div>
+        <div className="col-md-5">
+          <Card>
+            <Card.Img
+              variant="top"
+              src={personal1}
+              style={{ height: "300px", width: "auto" }}
+            />
+            <Card.Body>
+              <Card.Text>
+                <span>Project page </span>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+      </div>
+
       <br />
        
       <div className="row bg-light p-2 m-2">
@@ -219,134 +413,7 @@ It's a full stack react app.For this app i use: "Mongodb,firebase,react,react-bo
 
       <br />
 
-      <div className="row bg-light p-2 m-2">
-        <div className="col-md-5">
-          <Card>
-            <Card.Img
-              variant="top"
-              src={solarstudio}
-              style={{ height: "450px", width: "auto" }}
-            />
-            <Card.Body>
-              <Card.Text>
-                <span>Home page </span>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div className="col-md-2">
-          <div className="">
-            <span>Name: Solar Studio </span>
-            <br />
-            A online service providing site.
-            <br />
-            <span>Features: </span>
-            I’ve created a simple full-stack project. It has two part One is
-            Client part, and Second part Clients can give their feedback. They
-            orders some service and payment in online platform.
-            <br />
-            <span> Frontend: </span> HTML5, CSS3, ES6, React, Bootstrap,
-            React-Spring.
-            <br />
-            <span> Backend: </span> MongoDB, ReST API, NodeJS, Firebase, Git,
-            Heroku.
-            <br />
-          </div>
-          <div className="">
-            <a
-              href="https://github.com/MohtasimShariar/Solar-studio-client"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <Button variant="primary">Git code</Button>
-            </a>
-            <a
-              href="https://solar-studio-d83bc.web.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <Button variant="primary">Live site</Button>
-            </a>
-          </div>
-        </div>
-        <div className="col-md-5">
-          <Card>
-            <Card.Img
-              variant="top"
-              src={solarstudio1}
-              style={{ height: "450px", width: "auto" }}
-            />
-            <Card.Body>
-              <Card.Text>
-                <span>Project page </span>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-      </div>
-
-      <br />
-
-      <div className="row bg-light p-2 m-2">
-        <div className="col-md-5">
-          <Card>
-            <Card.Img
-              variant="top"
-              src={personal}
-              style={{ height: "300px", width: "auto" }}
-            />
-            <Card.Body>
-              <Card.Text>
-                <span>Home page </span>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div className="col-md-2">
-          <div className="">
-            <span>Name: Personal Web-App </span>
-            <br />
-            This website using
-            react-js,react-bootstrap,React-Route,Font-Awesome. <br />
-          </div>
-          <div className="">
-            <a
-              href="https://github.com/MohtasimShariar/personal-webapp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <Button variant="primary">Git code</Button>
-            </a>
-            <a
-              href="https://mohtasimshariar.github.io/Solar-Song-App/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <Button variant="primary">Live site</Button>
-            </a>
-          </div>
-        </div>
-        <div className="col-md-5">
-          <Card>
-            <Card.Img
-              variant="top"
-              src={personal1}
-              style={{ height: "300px", width: "auto" }}
-            />
-            <Card.Body>
-              <Card.Text>
-                <span>Project page </span>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-      </div>
-
-      <br />
+      
 
       <div className="row bg-light p-2 m-2">
         <div className="col-md-5">
