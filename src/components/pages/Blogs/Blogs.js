@@ -20,29 +20,7 @@ const Blogs = () => {
         <br/>
         <Row>
             <Col className="d-flex justify-content-center flex-wrap">
-              <div className="m-2">
-                <a
-                  href="mailto:onim04@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="outline-danger" title="onim04@gmail.com">
-                    <i className="fas fa-envelope-square"></i> Email Me
-                  </Button>
-                </a>
-              </div>
-              <div className="m-2">
-                <a
-                  href="https://www.linkedin.com/in/md-mohtasim-shariar-026478209/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="outline-primary" title="Visit my LinkenIn">
-                    <i className="fab fa-linkedin"></i> LinkedIn
-                  </Button>
-                </a>
-              </div>
-
+              
               <div className="m-2">
                 <a
                   href="https://github.com/MohtasimShariar"
@@ -50,7 +28,7 @@ const Blogs = () => {
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline-dark" title="My other projects">
-                    <i className="fab fa-github-square"></i> GitHub
+                    <i className="fab fa-github-square"></i> Blog 1
                   </Button>
                 </a>
               </div>
@@ -65,17 +43,19 @@ const Blogs = () => {
                     variant="outline-info"
                     title="Lets code together!"
                   >
-                    <i class="fab fa-skype"></i> Skype
+                    <i class="fab fa-skype"></i> Blog 2
                   </Button>
                 </a>
               </div>
+
               <div className="m-2">
                 <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-info" title="Tweets are welcomed!">
-                    <i className="fab fa-twitter"></i> Twitter
+                    <i className="fab fa-twitter"></i> Blog 3
                   </Button>
                 </a>
               </div>
+
               <div className="m-2">
                 <a
                   href="https://shariar.medium.com/ten-basic-topics-on-javascript-for-the-beginners-32ce5d52e412"
@@ -87,6 +67,7 @@ const Blogs = () => {
                   </Button>
                 </a>
               </div>
+
             </Col>
           </Row>
         <br/>
