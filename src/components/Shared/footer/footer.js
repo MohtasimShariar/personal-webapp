@@ -95,7 +95,7 @@ const FooterPanel = () => {
       </div>
       <div>
         <div className=" footer-style ">
-          © Mohtasim Shariar &nbsp; {new Date().getFullYear()}
+          © Mohtasim Shariar&nbsp; {new Date().getFullYear()}
         </div>
       </div>
     </div>

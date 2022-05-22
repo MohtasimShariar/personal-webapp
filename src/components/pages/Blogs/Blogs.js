@@ -15,26 +15,28 @@ const Blogs = () => {
         <br/>
         <br/>
         
-      <div className="py-2 text-center footer-style">Here was my blogs link.Click here and read</div>
+      <div className="py-2 text-center footer-style">Here was my blogs link.
+      <br></br>Click here and read</div>
 
         <br/>
         <Row>
-            <Col className="d-flex justify-content-center flex-wrap">
+            <Col className="d-flex justify-content-center flex-wrap uppercase  capitalize">
               
               <div className="m-2">
                 <a
-                  href="https://github.com/MohtasimShariar"
+                  href="https://shariar.medium.com/ten-basic-topics-on-javascript-for-the-beginners-32ce5d52e412"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline-dark" title="My other projects">
-                    <i className="fab fa-github-square"></i> Blog 1
+                    <i className="fas fa-envelope-square"></i> Blog 1  <br></br><strong className="  text-capitalize">#Ten basic topics on javascript for the beginners</strong>
                   </Button>
                 </a>
               </div>
+
               <div className="m-2">
                 <a
-                  href="https://join.skype.com/invite/n8jcFKlUCiIz"
+                  href="https://shariar.medium.com/ten-common-tricks-of-javascript-beginners-d80ddbe1684a"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -43,27 +45,27 @@ const Blogs = () => {
                     variant="outline-info"
                     title="Lets code together!"
                   >
-                    <i class="fab fa-skype"></i> Blog 2
+                    <i class="fas fa-envelope-square"></i> Blog 2  <br></br><strong className="   text-capitalize">#Ten common tricks of javascript beginners</strong>
                   </Button>
                 </a>
               </div>
 
               <div className="m-2">
-                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://shariar.medium.com/ten-basic-documents-and-code-on-javascript-for-beginners-a469eae003f3" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-info" title="Tweets are welcomed!">
-                    <i className="fab fa-twitter"></i> Blog 3
+                    <i className="fas fa-envelope-square"></i> Blog 3  <br></br><strong className="  text-capitalize">#Code on javascript for beginners</strong>
                   </Button>
                 </a>
               </div>
 
               <div className="m-2">
                 <a
-                  href="https://shariar.medium.com/ten-basic-topics-on-javascript-for-the-beginners-32ce5d52e412"
+                  href="https://shariar.medium.com/ten-basic-topics-on-react-for-the-beginners-f564f128508b"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button variant="outline-primary" title="Say hello on FB">
-                    <i className="fas fa-envelope-square"></i> Blog 4
+                    <i className="fas fa-envelope-square"></i> Blog 4  <br></br><strong className="  text-capitalize">#ten basic topics on react for the beginners</strong>
                   </Button>
                 </a>
               </div>

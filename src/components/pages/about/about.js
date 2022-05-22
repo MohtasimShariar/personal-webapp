@@ -43,20 +43,24 @@ const About = () => {
                 skills and technological advancements.
                 <br />
                 <strong>Educational Qualification</strong>
-
-                <strong>Bachelor of Science (BSC)</strong>
+                <br />
+                <br />
+                <strong>Bachelor of Science (BSc)</strong>
                  Institute: Bangladesh Army University
                 of Engineering and Technology (BAUET) Department: Computer
-                Science and Engineering (CSE) Result: GPA- 3.00(up to 7th
-                semester) Passing Year: 2021
+                Science and Engineering (CSE) Result: GPA- 2.84 Passing Year: 2021
+                <br />
                 <strong>Higher Secondary Certificate (HSC)</strong>
                  Institute: Ishwardi
                 Government Collage Result: GPA- 4.50 Group: Science Passing
                 Year: 2016
+                <br />
                 <strong>Secondary School Certificate (SSC)</strong>
                  Institute: Sara Marwari Model
                 School and College Result: GPA- 5.00 Group: Science Passing
                 Year: 2014
+                <br />
+                <br />
                 <strong>Declaration</strong>
                 I the undersigned, declare that to the best of my
                 knowledge and belief, this resume correctly describes
